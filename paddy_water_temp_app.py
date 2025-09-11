@@ -13,8 +13,8 @@ from AMD_PaddyWaterTemp import WaterTemp       # WaterTemp は AMD_Tools4 参照
 import folium
 from streamlit_folium import st_folium
 
-st.set_page_config(page_title="水田水温シミュレーター（地図 or 入力）", layout="wide")
-st.title("🌾 水田水温シミュレーター（AMD_Tools4 + 地図クリック & 緯度経度入力）")
+st.markdown("### 🌾 水田水温取得アプリ（信大作成）")
+st.title("🌾 水田水温取得アプリ")
 
 # -------------------------------
 # セッション初期化
@@ -174,4 +174,5 @@ if st.session_state.result_df is not None:
     st.pyplot(fig)
 else:
     st.info("サイドバーで条件を設定し、「計算実行」を押してください。結果は画面に保持されます。")
+
 
