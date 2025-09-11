@@ -4,4 +4,9 @@ numpy>=1.26.0
 matplotlib>=3.8.0
 folium>=0.16.0
 streamlit-folium>=0.21.0
-netCDF4
+xarray>=2024.5.0
+netCDF4>=1.6.5
+h5netcdf>=1.3.0
+cftime>=1.6.3
+bottleneck>=1.3.8
+scipy>=1.12.0
